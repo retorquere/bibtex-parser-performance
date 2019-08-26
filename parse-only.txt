@@ -1,0 +1,1168 @@
+[emile@blueberry bibtex-perf]$ node index.js
+import/Author splitter failure.bib (1/233)
+biblatex-csl-converter x 5,232 ops/sec ±2.94% (87 runs sampled)
+bibtex-parser x 7,676 ops/sec ±2.91% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 1.467277555091306
+
+import/Better BibLaTeX import improvements #549.bib (2/233)
+biblatex-csl-converter x 174 ops/sec ±2.42% (79 runs sampled)
+bibtex-parser x 1,415 ops/sec ±2.17% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 8.139133287524153
+
+import/Better BibTeX Import 2.bib (3/233)
+biblatex-csl-converter x 4,365 ops/sec ±1.30% (89 runs sampled)
+bibtex-parser x 6,057 ops/sec ±1.21% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3876856828159498
+
+import/Better BibTeX.001.bib (4/233)
+biblatex-csl-converter x 2,082 ops/sec ±1.97% (90 runs sampled)
+bibtex-parser x 3,937 ops/sec ±1.39% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.8905054084602
+
+import/Better BibTeX.003.bib (5/233)
+biblatex-csl-converter x 3,892 ops/sec ±1.83% (88 runs sampled)
+bibtex-parser x 6,610 ops/sec ±1.59% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6985936247040194
+
+import/Better BibTeX.004.bib (6/233)
+biblatex-csl-converter x 6,551 ops/sec ±1.27% (90 runs sampled)
+bibtex-parser x 8,780 ops/sec ±2.03% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3402761614408856
+
+import/Better BibTeX.005.bib (7/233)
+biblatex-csl-converter x 545 ops/sec ±5.72% (75 runs sampled)
+bibtex-parser x 10,234 ops/sec ±2.42% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 18.792719103945085
+
+import/Better BibTeX.006.bib (8/233)
+biblatex-csl-converter x 533 ops/sec ±6.11% (74 runs sampled)
+bibtex-parser x 16,799 ops/sec ±1.66% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 31.519680519919216
+
+import/Better BibTeX.007.bib (9/233)
+biblatex-csl-converter x 315 ops/sec ±3.91% (78 runs sampled)
+bibtex-parser x 4,090 ops/sec ±1.28% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 12.973800509359867
+
+import/Better BibTeX.007.roundtrip.bib (10/233)
+biblatex-csl-converter x 318 ops/sec ±3.73% (76 runs sampled)
+bibtex-parser x 4,052 ops/sec ±1.80% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 12.76148110508833
+
+import/Better BibTeX.008.bib (11/233)
+biblatex-csl-converter x 6,740 ops/sec ±1.60% (88 runs sampled)
+bibtex-parser x 9,759 ops/sec ±1.40% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4478676495812788
+
+import/Better BibTeX.009.bib (12/233)
+biblatex-csl-converter x 1,834 ops/sec ±1.94% (89 runs sampled)
+bibtex-parser x 3,845 ops/sec ±1.38% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 2.096850769858888
+
+import/Better BibTeX.010.bib (13/233)
+biblatex-csl-converter x 262 ops/sec ±3.32% (76 runs sampled)
+bibtex-parser x 3,070 ops/sec ±1.29% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 11.735600801567143
+
+import/Better BibTeX.011.bib (14/233)
+biblatex-csl-converter x 3,441 ops/sec ±1.21% (91 runs sampled)
+bibtex-parser x 6,171 ops/sec ±2.33% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.79301730687445
+
+import/Better BibTeX.012.bib (15/233)
+biblatex-csl-converter x 6,467 ops/sec ±1.20% (90 runs sampled)
+bibtex-parser x 9,982 ops/sec ±2.53% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5434087674828678
+
+import/Better BibTeX.014.bib (16/233)
+biblatex-csl-converter x 643 ops/sec ±6.40% (74 runs sampled)
+bibtex-parser x 25,435 ops/sec ±1.18% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 39.54934126695635
+
+import/Better BibTeX.015.bib (17/233)
+biblatex-csl-converter x 202 ops/sec ±2.50% (77 runs sampled)
+bibtex-parser x 2,037 ops/sec ±1.17% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 10.083834862308677
+
+import/BibLaTeX Patent author handling, type #1060.bib (18/233)
+biblatex-csl-converter x 1,713 ops/sec ±1.30% (90 runs sampled)
+bibtex-parser x 3,138 ops/sec ±1.79% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.8316206560187551
+
+import/BibTeX import; preamble with def create problems #732.bib (19/233)
+biblatex-csl-converter x 329 ops/sec ±4.48% (74 runs sampled)
+bibtex-parser x 4,393 ops/sec ±1.41% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 13.33479309547017
+
+import/Biblatex Annotation Import Bug #613.bib (20/233)
+biblatex-csl-converter x 8,203 ops/sec ±1.82% (89 runs sampled)
+bibtex-parser x 9,800 ops/sec ±1.24% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1946641331494658
+
+import/Endnote should parse.bib (21/233)
+biblatex-csl-converter x 2,951 ops/sec ±1.76% (92 runs sampled)
+bibtex-parser x 3,215 ops/sec ±2.38% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0895005841309269
+
+import/Failure to handle unparsed author names (92).bib (22/233)
+biblatex-csl-converter x 2,978 ops/sec ±1.26% (90 runs sampled)
+bibtex-parser x 4,816 ops/sec ±2.47% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6173192190621084
+
+import/Import Jabref fileDirectory, unexpected reference type #1058.bib (23/233)
+biblatex-csl-converter x 1,474 ops/sec ±1.27% (89 runs sampled)
+bibtex-parser x 2,176 ops/sec ±1.77% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4760683517052826
+
+import/Import fails to perform @String substitutions #154.bib (24/233)
+biblatex-csl-converter x 9,524 ops/sec ±1.18% (93 runs sampled)
+bibtex-parser x 11,944 ops/sec ±1.17% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2540080278342185
+
+import/Import location to event-place for conference papers.bib (25/233)
+biblatex-csl-converter x 3,389 ops/sec ±2.09% (90 runs sampled)
+bibtex-parser x 3,934 ops/sec ±1.17% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1606808036798226
+
+import/Issues with round instead of curly braces do not import correctly #871.bib (26/233)
+biblatex-csl-converter x 482 ops/sec ±5.58% (74 runs sampled)
+bibtex-parser x 8,355 ops/sec ±1.79% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 17.32435915375551
+
+import/Jabref groups import does not work #717.2.10.bib (27/233)
+biblatex-csl-converter x 320 ops/sec ±3.52% (80 runs sampled)
+bibtex-parser x 3,384 ops/sec ±1.81% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 10.569050955733873
+
+import/Jabref groups import does not work #717.3.8.bib (28/233)
+biblatex-csl-converter x 270 ops/sec ±3.07% (79 runs sampled)
+bibtex-parser x 2,632 ops/sec ±0.92% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 9.760161694669502
+
+import/Literal names.bib (29/233)
+biblatex-csl-converter x 1,340 ops/sec ±1.72% (89 runs sampled)
+bibtex-parser x 2,181 ops/sec ±2.23% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6274830161172285
+
+import/Maintain the JabRef group and subgroup structure when importing a BibTeX db #97.bib (30/233)
+biblatex-csl-converter x 0.26 ops/sec ±0.93% (5 runs sampled)
+bibtex-parser x 2.26 ops/sec ±5.70% (10 runs sampled)
+Fastest is bibtex-parser, speedup = 8.825503525025043
+
+import/Math formatting lost on import #627.bib (31/233)
+biblatex-csl-converter x 3,084 ops/sec ±1.23% (92 runs sampled)
+bibtex-parser x 6,315 ops/sec ±1.62% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 2.047449141239194
+
+import/Math markup to unicode not always imported correctly #472.bib (32/233)
+biblatex-csl-converter x 275 ops/sec ±3.16% (81 runs sampled)
+bibtex-parser x 1,991 ops/sec ±2.77% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 7.252315176920939
+
+import/Math markup to unicode not always imported correctly #472.roundtrip.bib (33/233)
+biblatex-csl-converter x 295 ops/sec ±3.57% (78 runs sampled)
+bibtex-parser x 2,410 ops/sec ±0.97% (92 runs sampled)
+Fastest is bibtex-parser, speedup = 8.171122500626645
+
+import/Problem when importing BibTeX entries with percent sign #95 or preamble #96.bib (34/233)
+biblatex-csl-converter x 161 ops/sec ±2.17% (80 runs sampled)
+bibtex-parser x 1,363 ops/sec ±1.60% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 8.475010987845558
+
+import/Problem when importing BibTeX entries with square brackets #94.bib (35/233)
+biblatex-csl-converter x 2,368 ops/sec ±0.86% (93 runs sampled)
+bibtex-parser x 2,514 ops/sec ±1.66% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.061480502884291
+
+import/Some bibtex entries quietly discarded on import from bib file #873.bib (36/233)
+biblatex-csl-converter x 0.92 ops/sec ±0.94% (7 runs sampled)
+bibtex-parser x 6.09 ops/sec ±5.25% (19 runs sampled)
+Fastest is bibtex-parser, speedup = 6.6395173617758605
+
+import/Spaces lost when expanding string variables during import #1081.bib (37/233)
+biblatex-csl-converter x 12,237 ops/sec ±1.34% (90 runs sampled)
+bibtex-parser x 13,177 ops/sec ±1.35% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0768392873111154
+
+import/Wrong ring-above import #1115.bib (38/233)
+biblatex-csl-converter x 2,384 ops/sec ±1.28% (89 runs sampled)
+bibtex-parser x 5,691 ops/sec ±3.69% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 2.386770146812743
+
+import/eprinttype field dropped on import #959.bib (39/233)
+biblatex-csl-converter x 431 ops/sec ±4.60% (78 runs sampled)
+bibtex-parser x 5,253 ops/sec ±1.85% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 12.20188169783664
+
+import/space after citekey creates confusion #716.bib (40/233)
+biblatex-csl-converter x 10,284 ops/sec ±1.18% (92 runs sampled)
+bibtex-parser x 13,002 ops/sec ±1.24% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2643444940362538
+
+import/support Local-Zo-Url-x field from BibDesk2Zotero_attachments #667.bib (41/233)
+biblatex-csl-converter x 3,988 ops/sec ±1.86% (89 runs sampled)
+bibtex-parser x 5,017 ops/sec ±1.59% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.25807351429226
+
+import/zbb (quietly) chokes on this .bib #664.bib (42/233)
+biblatex-csl-converter x 1,568 ops/sec ±1.53% (92 runs sampled)
+bibtex-parser x 1,650 ops/sec ±1.28% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0520748589718616
+
+export/(non-)dropping particle handling #313.biblatex (43/233)
+biblatex-csl-converter x 35.11 ops/sec ±0.88% (60 runs sampled)
+bibtex-parser x 214 ops/sec ±1.82% (82 runs sampled)
+Fastest is bibtex-parser, speedup = 6.08489535672089
+
+export/@jurisdiction; map court,authority to institution #326.biblatex (44/233)
+biblatex-csl-converter x 7,155 ops/sec ±1.83% (90 runs sampled)
+bibtex-parser x 8,959 ops/sec ±1.68% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2520932337429487
+
+export/@legislation; map code,container-title to journaltitle #327.biblatex (45/233)
+biblatex-csl-converter x 429 ops/sec ±5.28% (77 runs sampled)
+bibtex-parser x 6,728 ops/sec ±1.49% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 15.674863999290903
+
+export/ADS exports dates like 1993-00-00 #1066.biblatex (46/233)
+biblatex-csl-converter x 3,032 ops/sec ±1.03% (91 runs sampled)
+bibtex-parser x 4,573 ops/sec ±1.81% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5085783897549203
+
+export/Abbreviations in key generated for Conference Proceedings #548.biblatex (47/233)
+biblatex-csl-converter x 392 ops/sec ±4.44% (78 runs sampled)
+bibtex-parser x 4,517 ops/sec ±1.29% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 11.527426269921268
+
+export/Allow explicit field override.biblatex (48/233)
+biblatex-csl-converter x 4,773 ops/sec ±1.59% (89 runs sampled)
+bibtex-parser x 5,936 ops/sec ±1.90% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2434878855027014
+
+export/BBT export of square brackets in date #245 -- xref should not be escaped #246.biblatex (49/233)
+biblatex-csl-converter x 903 ops/sec ±2.73% (88 runs sampled)
+bibtex-parser x 1,206 ops/sec ±1.39% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3355934146444604
+
+export/Be robust against misconfigured journal abbreviator #127.biblatex (50/233)
+biblatex-csl-converter x 3,536 ops/sec ±1.11% (90 runs sampled)
+bibtex-parser x 4,337 ops/sec ±2.09% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2264529486067823
+
+export/Better BibLaTeX.001.biblatex (51/233)
+biblatex-csl-converter x 3,475 ops/sec ±1.41% (92 runs sampled)
+bibtex-parser x 5,993 ops/sec ±1.42% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7246770320593825
+
+export/Better BibLaTeX.002.biblatex (52/233)
+biblatex-csl-converter x 3,631 ops/sec ±1.70% (90 runs sampled)
+bibtex-parser x 4,885 ops/sec ±1.29% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3456119295654536
+
+export/Better BibLaTeX.003.biblatex (53/233)
+biblatex-csl-converter x 4,434 ops/sec ±1.72% (89 runs sampled)
+bibtex-parser x 6,583 ops/sec ±1.19% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.484694605245281
+
+export/Better BibLaTeX.004.biblatex (54/233)
+biblatex-csl-converter x 5,137 ops/sec ±1.88% (90 runs sampled)
+bibtex-parser x 5,972 ops/sec ±1.62% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.162450262023282
+
+export/Better BibLaTeX.005.biblatex (55/233)
+biblatex-csl-converter x 525 ops/sec ±5.81% (76 runs sampled)
+bibtex-parser x 8,320 ops/sec ±2.03% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 15.860979420203524
+
+export/Better BibLaTeX.006.biblatex (56/233)
+biblatex-csl-converter x 532 ops/sec ±5.74% (77 runs sampled)
+bibtex-parser x 13,994 ops/sec ±1.46% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 26.3003648317858
+
+export/Better BibLaTeX.007.biblatex (57/233)
+biblatex-csl-converter x 325 ops/sec ±4.15% (79 runs sampled)
+bibtex-parser x 3,498 ops/sec ±2.22% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 10.749016932192756
+
+export/Better BibLaTeX.009.biblatex (58/233)
+biblatex-csl-converter x 1,691 ops/sec ±1.07% (92 runs sampled)
+bibtex-parser x 2,714 ops/sec ±1.87% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6049681940491642
+
+export/Better BibLaTeX.010.biblatex (59/233)
+biblatex-csl-converter x 1,464 ops/sec ±1.21% (90 runs sampled)
+bibtex-parser x 2,502 ops/sec ±2.09% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7096347500832991
+
+export/Better BibLaTeX.011.biblatex (60/233)
+biblatex-csl-converter x 3,484 ops/sec ±0.99% (90 runs sampled)
+bibtex-parser x 4,269 ops/sec ±1.26% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2251010885852922
+
+export/Better BibLaTeX.012.biblatex (61/233)
+biblatex-csl-converter x 3,095 ops/sec ±1.96% (88 runs sampled)
+bibtex-parser x 4,969 ops/sec ±1.45% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6053536490076652
+
+export/Better BibLaTeX.013.biblatex (62/233)
+biblatex-csl-converter x 3,437 ops/sec ±1.27% (92 runs sampled)
+bibtex-parser x 6,056 ops/sec ±1.75% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7619239975583572
+
+export/Better BibLaTeX.014.biblatex (63/233)
+biblatex-csl-converter x 396 ops/sec ±4.38% (79 runs sampled)
+bibtex-parser x 5,620 ops/sec ±1.32% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 14.173988051823462
+
+export/Better BibLaTeX.015.biblatex (64/233)
+biblatex-csl-converter x 3,394 ops/sec ±1.78% (91 runs sampled)
+bibtex-parser x 5,998 ops/sec ±1.28% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7675671189473434
+
+export/Better BibLaTeX.016.biblatex (65/233)
+biblatex-csl-converter x 5,473 ops/sec ±1.80% (89 runs sampled)
+bibtex-parser x 6,774 ops/sec ±1.22% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2378927311288808
+
+export/Better BibLaTeX.017.biblatex (66/233)
+biblatex-csl-converter x 5,834 ops/sec ±1.64% (90 runs sampled)
+bibtex-parser x 6,588 ops/sec ±1.55% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1294137621156917
+
+export/Better BibLaTeX.019.biblatex (67/233)
+biblatex-csl-converter x 493 ops/sec ±4.98% (78 runs sampled)
+bibtex-parser x 6,577 ops/sec ±2.22% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 13.334046528403558
+
+export/Better BibLaTeX.020.biblatex (68/233)
+biblatex-csl-converter x 4,329 ops/sec ±1.25% (88 runs sampled)
+bibtex-parser x 5,732 ops/sec ±1.18% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.323931806245659
+
+export/Better BibLaTeX.021.biblatex (69/233)
+biblatex-csl-converter x 321 ops/sec ±4.12% (77 runs sampled)
+bibtex-parser x 3,631 ops/sec ±1.25% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 11.30716044298309
+
+export/Better BibLaTeX.022.biblatex (70/233)
+biblatex-csl-converter x 342 ops/sec ±4.13% (78 runs sampled)
+bibtex-parser x 4,055 ops/sec ±1.93% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 11.851880306857922
+
+export/Better BibLaTeX.023.biblatex (71/233)
+biblatex-csl-converter x 4,451 ops/sec ±1.08% (90 runs sampled)
+bibtex-parser x 7,077 ops/sec ±2.12% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5897975926905112
+
+export/Better BibLaTeX.stable-keys.biblatex (72/233)
+biblatex-csl-converter x 190 ops/sec ±2.31% (79 runs sampled)
+bibtex-parser x 1,179 ops/sec ±1.02% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 6.2000179548993355
+
+export/Better BibTeX does not export collections #901.bibtex (73/233)
+biblatex-csl-converter x 13.30 ops/sec ±1.29% (37 runs sampled)
+bibtex-parser x 70.09 ops/sec ±1.89% (70 runs sampled)
+Fastest is bibtex-parser, speedup = 5.268374154165708
+
+export/Better BibTeX does not use biblatex fields eprint and eprinttype #170.biblatex (74/233)
+biblatex-csl-converter x 3,907 ops/sec ±1.04% (90 runs sampled)
+bibtex-parser x 4,540 ops/sec ±1.94% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1622059948497814
+
+export/Better BibTeX.018.bibtex (75/233)
+biblatex-csl-converter x 440 ops/sec ±5.00% (76 runs sampled)
+bibtex-parser x 6,396 ops/sec ±1.61% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 14.530619294668682
+
+export/Better BibTeX.026.bibtex (76/233)
+biblatex-csl-converter x 9,616 ops/sec ±1.80% (92 runs sampled)
+bibtex-parser x 9,747 ops/sec ±1.66% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0135939227739428
+
+export/Better BibTeX.027.bibtex (77/233)
+biblatex-csl-converter x 5,238 ops/sec ±1.96% (91 runs sampled)
+bibtex-parser x 7,092 ops/sec ±1.33% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3540292604773796
+
+export/BetterBibLaTeX; Software field company is mapped to publisher instead of organization #1054.biblatex (78/233)
+biblatex-csl-converter x 14,038 ops/sec ±1.33% (91 runs sampled)
+bibtex-parser x 15,483 ops/sec ±2.05% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1029496045160805
+
+export/BetterBibtex export fails for missing last name #978.bibtex (79/233)
+biblatex-csl-converter x 141 ops/sec ±1.83% (78 runs sampled)
+bibtex-parser x 1,423 ops/sec ±1.26% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 10.097589946857052
+
+export/BibLaTeX Patent author handling, type #1060.biblatex (80/233)
+biblatex-csl-converter x 1,085 ops/sec ±1.73% (89 runs sampled)
+bibtex-parser x 1,916 ops/sec ±2.08% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.765159577747485
+
+export/BibLaTeX; export CSL override 'issued' to date or year #351.biblatex (81/233)
+biblatex-csl-converter x 12,191 ops/sec ±1.34% (86 runs sampled)
+bibtex-parser x 18,772 ops/sec ±2.43% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5398460442358912
+
+export/BibTeX name escaping has a million inconsistencies #438.bibtex (82/233)
+biblatex-csl-converter x 4,746 ops/sec ±1.26% (91 runs sampled)
+bibtex-parser x 5,534 ops/sec ±2.16% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1660906050731674
+
+export/BibTeX variable support for journal titles. #309.biblatex (83/233)
+biblatex-csl-converter x 6,335 ops/sec ±1.00% (92 runs sampled)
+bibtex-parser x 9,272 ops/sec ±1.31% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4635664688060834
+
+export/BibTeX; URL missing in bibtex for Book Section #412.note.bibtex (84/233)
+biblatex-csl-converter x 335 ops/sec ±3.78% (76 runs sampled)
+bibtex-parser x 3,502 ops/sec ±1.60% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 10.460788007091576
+
+export/BibTeX; URL missing in bibtex for Book Section #412.off.bibtex (85/233)
+biblatex-csl-converter x 3,061 ops/sec ±1.27% (93 runs sampled)
+bibtex-parser x 3,981 ops/sec ±1.87% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3005578626308254
+
+export/BibTeX; URL missing in bibtex for Book Section #412.url.bibtex (86/233)
+biblatex-csl-converter x 2,906 ops/sec ±1.25% (91 runs sampled)
+bibtex-parser x 3,791 ops/sec ±1.25% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3044817782517573
+
+export/Bibtex key regenerating issue when trashing items #117.biblatex (87/233)
+biblatex-csl-converter x 1,805 ops/sec ±1.76% (92 runs sampled)
+bibtex-parser x 1,909 ops/sec ±1.74% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0576655613495507
+
+export/Book converted to mvbook #288.biblatex (88/233)
+biblatex-csl-converter x 4,339 ops/sec ±1.64% (91 runs sampled)
+bibtex-parser x 5,594 ops/sec ±2.23% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2894110233293878
+
+export/Book sections have book title for journal in citekey #409.biblatex (89/233)
+biblatex-csl-converter x 3,300 ops/sec ±1.21% (91 runs sampled)
+bibtex-parser x 3,507 ops/sec ±1.98% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.062734556263052
+
+export/BraceBalancer.biblatex (90/233)
+biblatex-csl-converter x 153 ops/sec ±2.00% (76 runs sampled)
+bibtex-parser x 1,289 ops/sec ±1.68% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 8.40953987300919
+
+export/Braces around author last name when exporting BibTeX #565.bibtex (91/233)
+biblatex-csl-converter x 130 ops/sec ±2.01% (73 runs sampled)
+bibtex-parser x 831 ops/sec ±2.53% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 6.366401002466502
+
+export/Bulk performance test.bib (92/233)
+biblatex-csl-converter x 0.39 ops/sec ±1.25% (5 runs sampled)
+bibtex-parser x 3.13 ops/sec ±4.91% (12 runs sampled)
+Fastest is bibtex-parser, speedup = 7.9661902053974165
+
+export/CSL status = biblatex pubstate #573.biblatex (93/233)
+biblatex-csl-converter x 14,606 ops/sec ±1.37% (89 runs sampled)
+bibtex-parser x 19,642 ops/sec ±1.28% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3447645807065274
+
+export/CSL title, volume-title, container-title=BL title, booktitle, maintitle #381.biblatex (94/233)
+biblatex-csl-converter x 2,471 ops/sec ±1.28% (90 runs sampled)
+bibtex-parser x 2,699 ops/sec ±1.94% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0924453656510216
+
+export/CSL variables only recognized when in lowercase #408.biblatex (95/233)
+biblatex-csl-converter x 1,583 ops/sec ±1.31% (92 runs sampled)
+bibtex-parser x 2,142 ops/sec ±1.02% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3533132996440667
+
+export/Capitalisation in techreport titles #160.biblatex (96/233)
+biblatex-csl-converter x 354 ops/sec ±4.05% (76 runs sampled)
+bibtex-parser x 3,736 ops/sec ±1.54% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 10.553352378430903
+
+export/Capitalize all title-fields for language en #383.biblatex (97/233)
+biblatex-csl-converter x 216 ops/sec ±2.57% (78 runs sampled)
+bibtex-parser x 1,837 ops/sec ±1.78% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 8.513287438049817
+
+export/Citations have month and day next to year #868.biblatex (98/233)
+biblatex-csl-converter x 693 ops/sec ±0.76% (91 runs sampled)
+bibtex-parser x 785 ops/sec ±1.34% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1328421470532397
+
+export/Citekey generation failure #708 and sort references on export #957.biblatex (99/233)
+biblatex-csl-converter x 146 ops/sec ±0.98% (81 runs sampled)
+bibtex-parser x 128 ops/sec ±1.74% (73 runs sampled)
+Fastest is biblatex-csl-converter, speedup = 1.1416938919128854
+
+export/Colon in bibtex key #405.biblatex (100/233)
+biblatex-csl-converter x 3,612 ops/sec ±1.81% (91 runs sampled)
+bibtex-parser x 4,454 ops/sec ±1.14% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2333073586478223
+
+export/Colon not allowed in citation key format #268.biblatex (101/233)
+biblatex-csl-converter x 2,572 ops/sec ±1.28% (93 runs sampled)
+bibtex-parser x 2,579 ops/sec ±1.74% (88 runs sampled)
+Fastest is biblatex-csl-converter, speedup = 0.9975811431169369
+
+export/DOI with underscores in extra field #108.biblatex (102/233)
+biblatex-csl-converter x 6,131 ops/sec ±1.08% (91 runs sampled)
+bibtex-parser x 7,618 ops/sec ±1.11% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2424292743123992
+
+export/Date export to Better CSL-JSON #360 #811.biblatex (103/233)
+biblatex-csl-converter x 151 ops/sec ±2.33% (76 runs sampled)
+bibtex-parser x 909 ops/sec ±1.28% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 6.009284421932487
+
+export/Date parses incorrectly with year 1000 when source Zotero field is in datetime format. #515.biblatex (104/233)
+biblatex-csl-converter x 4,773 ops/sec ±1.85% (87 runs sampled)
+bibtex-parser x 5,527 ops/sec ±3.31% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1580803191169886
+
+export/Dates incorrect when Zotero date field includes times #934.biblatex (105/233)
+biblatex-csl-converter x 616 ops/sec ±6.30% (76 runs sampled)
+bibtex-parser x 15,638 ops/sec ±1.38% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 25.37175320485546
+
+export/Diacritics stripped from keys regardless of ascii or fold filters #266-fold.biblatex (106/233)
+biblatex-csl-converter x 3,813 ops/sec ±2.65% (90 runs sampled)
+bibtex-parser x 4,685 ops/sec ±0.98% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2286387383511845
+
+export/Diacritics stripped from keys regardless of ascii or fold filters #266-nofold.biblatex (107/233)
+biblatex-csl-converter x 3,794 ops/sec ±1.57% (89 runs sampled)
+bibtex-parser x 4,570 ops/sec ±1.63% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2043288669436876
+
+export/Do not caps-protect literal lists #391.biblatex (108/233)
+biblatex-csl-converter x 4,347 ops/sec ±1.25% (91 runs sampled)
+bibtex-parser x 5,323 ops/sec ±2.13% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2245027320852637
+
+export/Do not caps-protect name fields #384 #565 #566.biber26.biblatex (109/233)
+biblatex-csl-converter x 76.98 ops/sec ±1.24% (66 runs sampled)
+bibtex-parser x 495 ops/sec ±1.08% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 6.436020142644609
+
+export/Do not caps-protect name fields #384 #565 #566.biblatex (110/233)
+biblatex-csl-converter x 81.70 ops/sec ±1.77% (69 runs sampled)
+bibtex-parser x 494 ops/sec ±1.75% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 6.042976613012464
+
+export/Do not caps-protect name fields #384 #565 #566.bibtex (111/233)
+biblatex-csl-converter x 91.55 ops/sec ±1.15% (76 runs sampled)
+bibtex-parser x 577 ops/sec ±2.47% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 6.299199078463665
+
+export/Do not caps-protect name fields #384 #565 #566.noopsort.bibtex (112/233)
+biblatex-csl-converter x 80.99 ops/sec ±1.24% (68 runs sampled)
+bibtex-parser x 513 ops/sec ±1.07% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 6.333627573164613
+
+export/Do not use more than three initials in case of authshort key #1079.biblatex (113/233)
+biblatex-csl-converter x 4,267 ops/sec ±1.90% (88 runs sampled)
+bibtex-parser x 4,679 ops/sec ±1.46% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0963520787105598
+
+export/Dollar sign in title not properly escaped #485.biblatex (114/233)
+biblatex-csl-converter x 465 ops/sec ±4.73% (80 runs sampled)
+bibtex-parser x 6,036 ops/sec ±1.86% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 12.992578060591025
+
+export/Don't title-case sup-subscripts #1037.biblatex (115/233)
+biblatex-csl-converter x 292 ops/sec ±3.15% (78 runs sampled)
+bibtex-parser x 2,185 ops/sec ±1.29% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 7.493862776425676
+
+export/EDTF dates in BibLaTeX #590.biblatex (116/233)
+biblatex-csl-converter x 194 ops/sec ±1.76% (80 runs sampled)
+bibtex-parser x 199 ops/sec ±1.98% (77 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0265822107237672
+
+export/Empty bibtex clause in extra gobbles whatever follows #99.bibtex (117/233)
+biblatex-csl-converter x 531 ops/sec ±5.21% (78 runs sampled)
+bibtex-parser x 9,030 ops/sec ±1.16% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 17.006161829633772
+
+export/Error exporting duplicate eprinttype #1128.biblatex (118/233)
+biblatex-csl-converter x 1,020 ops/sec ±1.49% (91 runs sampled)
+bibtex-parser x 1,027 ops/sec ±2.28% (86 runs sampled)
+Fastest is biblatex-csl-converter, speedup = 0.9930090450373803
+
+export/Error exporting with custom Extra field #1118.bibtex (119/233)
+biblatex-csl-converter x 380 ops/sec ±4.16% (79 runs sampled)
+bibtex-parser x 4,881 ops/sec ±2.13% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 12.849451303707593
+
+export/Export C as {v C}, not v{C} #152.bibtex (120/233)
+biblatex-csl-converter x 961 ops/sec ±0.74% (89 runs sampled)
+bibtex-parser x 1,532 ops/sec ±2.22% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5936842478054198
+
+export/Export Forthcoming as Forthcoming.biblatex (121/233)
+biblatex-csl-converter x 3,764 ops/sec ±1.01% (91 runs sampled)
+bibtex-parser x 5,298 ops/sec ±1.84% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4073604622507527
+
+export/Export Newspaper Article misses section field #132.biblatex (122/233)
+biblatex-csl-converter x 5,688 ops/sec ±1.31% (89 runs sampled)
+bibtex-parser x 6,751 ops/sec ±1.91% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.186895771978084
+
+export/Export error for items without publicationTitle and Preserve BibTeX variables enabled #201.biblatex (123/233)
+biblatex-csl-converter x 8,138 ops/sec ±1.26% (90 runs sampled)
+bibtex-parser x 12,209 ops/sec ±1.23% (93 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5002289959314343
+
+export/Export mapping for reporter field #219.biblatex (124/233)
+biblatex-csl-converter x 4,332 ops/sec ±1.48% (92 runs sampled)
+bibtex-parser x 6,817 ops/sec ±1.69% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.5736191098126973
+
+export/Export of creator-type fields from embedded CSL variables #365 uppercase DOI #825.biblatex (125/233)
+biblatex-csl-converter x 174 ops/sec ±2.10% (78 runs sampled)
+bibtex-parser x 1,186 ops/sec ±2.91% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 6.828429645187187
+
+export/Export of item to Better Bibtex fails for auth3_1 #98.bibtex (126/233)
+biblatex-csl-converter x 1,819 ops/sec ±1.32% (90 runs sampled)
+bibtex-parser x 1,987 ops/sec ±1.55% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0921753927726263
+
+export/Export unicode as plain text fails for Vietnamese characters #977.bibtex (127/233)
+biblatex-csl-converter x 406 ops/sec ±4.99% (76 runs sampled)
+bibtex-parser x 6,446 ops/sec ±1.33% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 15.870225357978931
+
+export/Export web page to misc type with notes and howpublished custom fields #329.bibtex (128/233)
+biblatex-csl-converter x 387 ops/sec ±4.49% (77 runs sampled)
+bibtex-parser x 3,820 ops/sec ±1.68% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 9.861252782530588
+
+export/Exporting of single-field author lacks braces #130.biblatex (129/233)
+biblatex-csl-converter x 3,517 ops/sec ±0.91% (89 runs sampled)
+bibtex-parser x 3,659 ops/sec ±1.93% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0403517065291465
+
+export/Extra semicolon in biblatexadata causes export failure #133.biblatex (130/233)
+biblatex-csl-converter x 73.16 ops/sec ±1.12% (74 runs sampled)
+bibtex-parser x 475 ops/sec ±1.29% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 6.491855841183904
+
+export/Fields in Extra should override defaults.biblatex (131/233)
+biblatex-csl-converter x 3,425 ops/sec ±1.68% (91 runs sampled)
+bibtex-parser x 4,220 ops/sec ±1.18% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.232157410433521
+
+export/German Umlaut separated by brackets #146.biblatex (132/233)
+biblatex-csl-converter x 332 ops/sec ±3.92% (74 runs sampled)
+bibtex-parser x 4,185 ops/sec ±1.40% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 12.61784660564801
+
+export/HTML Fragment separator escaped in url #140 #147.biblatex (133/233)
+biblatex-csl-converter x 7,708 ops/sec ±1.15% (89 runs sampled)
+bibtex-parser x 10,166 ops/sec ±2.57% (83 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3188450900823285
+
+export/Hang on non-file attachment export #112 - URL export broken #114.biblatex (134/233)
+biblatex-csl-converter x 1,357 ops/sec ±0.93% (90 runs sampled)
+bibtex-parser x 1,445 ops/sec ±2.04% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0651227309383593
+
+export/Hyphenated last names not escaped properly (or at all) in BibTeX #976.bibtex (135/233)
+biblatex-csl-converter x 4,848 ops/sec ±1.20% (91 runs sampled)
+bibtex-parser x 6,872 ops/sec ±1.10% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.417561340206725
+
+export/Ignore HTML tags when generating citation key #264.biblatex (136/233)
+biblatex-csl-converter x 427 ops/sec ±5.03% (77 runs sampled)
+bibtex-parser x 5,147 ops/sec ±1.28% (83 runs sampled)
+Fastest is bibtex-parser, speedup = 12.056090809961509
+
+export/Ignoring upper cases in German titles #456.biblatex (137/233)
+biblatex-csl-converter x 1,960 ops/sec ±1.28% (89 runs sampled)
+bibtex-parser x 2,522 ops/sec ±1.91% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2872405133849512
+
+export/Ignoring upper cases in German titles #456.bibtex (138/233)
+biblatex-csl-converter x 300 ops/sec ±3.68% (76 runs sampled)
+bibtex-parser x 3,111 ops/sec ±1.32% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 10.38019533865668
+
+export/Include first name initial(s) in cite key generation pattern (86).bibtex (139/233)
+biblatex-csl-converter x 284 ops/sec ±3.33% (79 runs sampled)
+bibtex-parser x 3,087 ops/sec ±1.57% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 10.874185795393275
+
+export/Japanese rendered as Chinese in Citekey #979.biblatex (140/233)
+biblatex-csl-converter x 5,259 ops/sec ±1.75% (91 runs sampled)
+bibtex-parser x 6,521 ops/sec ±1.23% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2399737573004985
+
+export/Japanese rendered as Chinese in Citekey #979.juris-m.biblatex (141/233)
+biblatex-csl-converter x 4,066 ops/sec ±1.30% (92 runs sampled)
+bibtex-parser x 5,153 ops/sec ±1.76% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2672408175627774
+
+export/Journal abbreviations exported in bibtex (81).bibtex (142/233)
+biblatex-csl-converter x 407 ops/sec ±4.58% (78 runs sampled)
+bibtex-parser x 4,905 ops/sec ±0.76% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 12.039180610611254
+
+export/Journal abbreviations.bibtex (143/233)
+biblatex-csl-converter x 5,136 ops/sec ±1.66% (91 runs sampled)
+bibtex-parser x 6,721 ops/sec ±1.50% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3086934938667358
+
+export/Juris-M missing multi-lingual fields #482.biblatex (144/233)
+biblatex-csl-converter x 354 ops/sec ±4.01% (79 runs sampled)
+bibtex-parser x 3,757 ops/sec ±1.87% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 10.624559857794797
+
+export/Juris-M missing multi-lingual fields #482.juris-m.biblatex (145/233)
+biblatex-csl-converter x 297 ops/sec ±3.52% (77 runs sampled)
+bibtex-parser x 3,048 ops/sec ±2.56% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 10.270499465409802
+
+export/Latex commands in extra-field treated differently #1207.biblatex (146/233)
+biblatex-csl-converter x 331 ops/sec ±3.54% (78 runs sampled)
+bibtex-parser x 3,177 ops/sec ±1.37% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 9.607758599851321
+
+export/Malformed HTML.biblatex (147/233)
+biblatex-csl-converter x 422 ops/sec ±4.70% (76 runs sampled)
+bibtex-parser x 5,866 ops/sec ±1.30% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 13.897309101060973
+
+export/Math parts in title #113.biblatex (148/233)
+biblatex-csl-converter x 456 ops/sec ±4.61% (79 runs sampled)
+bibtex-parser x 5,645 ops/sec ±1.98% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 12.373648829992586
+
+export/Missing JabRef pattern; authEtAl #554.bibtex (149/233)
+biblatex-csl-converter x 281 ops/sec ±3.24% (78 runs sampled)
+bibtex-parser x 3,144 ops/sec ±1.10% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 11.19892260135705
+
+export/Missing JabRef pattern; authorsN+initials #553.bibtex (150/233)
+biblatex-csl-converter x 282 ops/sec ±3.52% (78 runs sampled)
+bibtex-parser x 3,026 ops/sec ±1.54% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 10.744255531773657
+
+export/Month showing up in year field on export #889.biblatex (151/233)
+biblatex-csl-converter x 4,995 ops/sec ±2.00% (90 runs sampled)
+bibtex-parser x 6,023 ops/sec ±1.37% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2056865878592449
+
+export/Multiple locations and-or publishers and BibLaTeX export #689.biblatex (152/233)
+biblatex-csl-converter x 4,090 ops/sec ±1.14% (89 runs sampled)
+bibtex-parser x 4,845 ops/sec ±1.78% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1846867200002342
+
+export/No booktitle field when exporting references from conference proceedings #1069.bibtex (153/233)
+biblatex-csl-converter x 5,121 ops/sec ±1.28% (91 runs sampled)
+bibtex-parser x 5,915 ops/sec ±1.26% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1549804355715454
+
+export/No brace protection when suppressTitleCase set to true #1188.bibtex (154/233)
+biblatex-csl-converter x 2,516 ops/sec ±1.65% (92 runs sampled)
+bibtex-parser x 2,990 ops/sec ±1.50% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1884919598475259
+
+export/No space between author first and last name because last char of first name is translated to a latex command #1091.bibtex (155/233)
+biblatex-csl-converter x 304 ops/sec ±3.45% (79 runs sampled)
+bibtex-parser x 4,017 ops/sec ±2.06% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 13.20528151653671
+
+export/Non-ascii in dates is not matched by date parser #376.biblatex (156/233)
+biblatex-csl-converter x 3,050 ops/sec ±1.14% (89 runs sampled)
+bibtex-parser x 4,297 ops/sec ±1.92% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4089373212532275
+
+export/Normalize date ranges in citekeys #356.biblatex (157/233)
+biblatex-csl-converter x 1,659 ops/sec ±1.26% (89 runs sampled)
+bibtex-parser x 2,719 ops/sec ±1.34% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6383410565874905
+
+export/Numbers confuse capital-preservation #295.bibtex (158/233)
+biblatex-csl-converter x 571 ops/sec ±5.97% (76 runs sampled)
+bibtex-parser x 12,381 ops/sec ±1.31% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 21.68183174551308
+
+export/Omit URL export when DOI present. #131.default.biblatex (159/233)
+biblatex-csl-converter x 124 ops/sec ±1.67% (78 runs sampled)
+bibtex-parser x 864 ops/sec ±1.71% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 6.959241965099616
+
+export/Omit URL export when DOI present. #131.groups3.biblatex (160/233)
+biblatex-csl-converter x 126 ops/sec ±1.72% (79 runs sampled)
+bibtex-parser x 930 ops/sec ±1.14% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 7.358318769509976
+
+export/Omit URL export when DOI present. #131.prefer-DOI.biblatex (161/233)
+biblatex-csl-converter x 133 ops/sec ±1.80% (74 runs sampled)
+bibtex-parser x 955 ops/sec ±1.55% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 7.190023140059403
+
+export/Omit URL export when DOI present. #131.prefer-url.biblatex (162/233)
+biblatex-csl-converter x 126 ops/sec ±2.06% (79 runs sampled)
+bibtex-parser x 896 ops/sec ±1.23% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 7.092247819915348
+
+export/Oriental dates trip up date parser #389.biblatex (163/233)
+biblatex-csl-converter x 2,467 ops/sec ±1.13% (92 runs sampled)
+bibtex-parser x 3,029 ops/sec ±2.03% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2280023423325952
+
+export/Protect math sections #1148.biblatex (164/233)
+biblatex-csl-converter x 533 ops/sec ±5.91% (74 runs sampled)
+bibtex-parser x 9,195 ops/sec ±1.36% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 17.238538377425193
+
+export/References with multiple notes fail to export #174.biblatex (165/233)
+biblatex-csl-converter x 8,203 ops/sec ±1.89% (91 runs sampled)
+bibtex-parser x 11,815 ops/sec ±1.26% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.440217279877661
+
+export/Replicate Zotero key algorithm #439.bibtex (166/233)
+biblatex-csl-converter x 242 ops/sec ±2.82% (80 runs sampled)
+bibtex-parser x 1,950 ops/sec ±1.95% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 8.045061802873809
+
+export/Season ranges should be exported as pseudo-months (13-16, or 21-24) #860.biblatex (167/233)
+biblatex-csl-converter x 2,857 ops/sec ±1.68% (89 runs sampled)
+bibtex-parser x 3,815 ops/sec ±1.40% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3351859136517186
+
+export/Setting the item type via the cheater syntax #587.biblatex (168/233)
+biblatex-csl-converter x 128 ops/sec ±1.65% (76 runs sampled)
+bibtex-parser x 1,020 ops/sec ±1.74% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 7.938644942055531
+
+export/Setting the item type via the cheater syntax #587.bibtex (169/233)
+biblatex-csl-converter x 138 ops/sec ±1.83% (77 runs sampled)
+bibtex-parser x 1,128 ops/sec ±0.95% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 8.182358451469259
+
+export/Shortjournal does not get exported to biblatex format #102 - biblatexcitekey #105.biblatex (170/233)
+biblatex-csl-converter x 2,315 ops/sec ±1.94% (92 runs sampled)
+bibtex-parser x 3,045 ops/sec ±1.41% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3151578126690655
+
+export/Sorting and optional particle handling #411.off.biblatex (171/233)
+biblatex-csl-converter x 2,045 ops/sec ±1.67% (91 runs sampled)
+bibtex-parser x 2,951 ops/sec ±1.38% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4432522832285333
+
+export/Sorting and optional particle handling #411.on.biblatex (172/233)
+biblatex-csl-converter x 2,038 ops/sec ±0.95% (93 runs sampled)
+bibtex-parser x 2,995 ops/sec ±1.65% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.469300471004196
+
+export/Spaces not stripped from citation keys #294.biblatex (173/233)
+biblatex-csl-converter x 3,704 ops/sec ±1.36% (89 runs sampled)
+bibtex-parser x 4,719 ops/sec ±1.39% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2739197198263326
+
+export/Square brackets in Publication field (85), and non-pinned keys must change when the pattern does.bibtex (174/233)
+biblatex-csl-converter x 286 ops/sec ±3.25% (79 runs sampled)
+bibtex-parser x 3,106 ops/sec ±1.79% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 10.873632583266403
+
+export/Suppress brace protection #1139.biblatex (175/233)
+biblatex-csl-converter x 2,763 ops/sec ±1.17% (93 runs sampled)
+bibtex-parser x 3,306 ops/sec ±1.11% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1968192727093527
+
+export/Text that legally contains the text of HTML entities such as &nbsp; triggers an overzealous decoding second-guesser #253.biblatex (176/233)
+biblatex-csl-converter x 199 ops/sec ±2.44% (77 runs sampled)
+bibtex-parser x 1,993 ops/sec ±1.72% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 10.020026881935054
+
+export/Thin space in author name #859.biblatex (177/233)
+biblatex-csl-converter x 539 ops/sec ±2.26% (83 runs sampled)
+bibtex-parser x 3,178 ops/sec ±1.89% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 5.895193427915584
+
+export/Title case of latex greek text on biblatex export #564.biblatex (178/233)
+biblatex-csl-converter x 35.51 ops/sec ±1.19% (61 runs sampled)
+bibtex-parser x 222 ops/sec ±1.94% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 6.257960939974199
+
+export/Treat dash-connected words as a single word for citekey generation #619.biblatex (179/233)
+biblatex-csl-converter x 4,232 ops/sec ±1.11% (91 runs sampled)
+bibtex-parser x 5,858 ops/sec ±1.34% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3842327118193507
+
+export/Unbalanced vphantom escapes #1043-mathmode.bibtex (180/233)
+biblatex-csl-converter x 255 ops/sec ±2.85% (79 runs sampled)
+bibtex-parser x 2,159 ops/sec ±1.92% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 8.47938967321408
+
+export/Unbalanced vphantom escapes #1043.bibtex (181/233)
+biblatex-csl-converter x 220 ops/sec ±2.68% (78 runs sampled)
+bibtex-parser x 1,847 ops/sec ±1.82% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 8.397193800291316
+
+export/Underscores break capital-preservation #300.bibtex (182/233)
+biblatex-csl-converter x 564 ops/sec ±5.74% (77 runs sampled)
+bibtex-parser x 10,977 ops/sec ±1.45% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 19.46602651200955
+
+export/[authN_M] citation key syntax has off-by-one error #899.bibtex (183/233)
+biblatex-csl-converter x 6,825 ops/sec ±2.07% (90 runs sampled)
+bibtex-parser x 7,469 ops/sec ±1.39% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0943117050910964
+
+export/arXiv identifiers in BibLaTeX export #460.biblatex (184/233)
+biblatex-csl-converter x 688 ops/sec ±1.63% (88 runs sampled)
+bibtex-parser x 875 ops/sec ±1.16% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.271438329963099
+
+export/arXiv identifiers in BibLaTeX export #460.bibtex (185/233)
+biblatex-csl-converter x 113 ops/sec ±1.49% (71 runs sampled)
+bibtex-parser x 863 ops/sec ±1.41% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 7.631538603010359
+
+export/auth leaves punctuation in citation key #310.biblatex (186/233)
+biblatex-csl-converter x 15,124 ops/sec ±1.01% (94 runs sampled)
+bibtex-parser x 19,697 ops/sec ±1.37% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3023335952344623
+
+export/auto-export.after.biblatex (187/233)
+biblatex-csl-converter x 151 ops/sec ±2.31% (76 runs sampled)
+bibtex-parser x 1,192 ops/sec ±1.07% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 7.893686168750641
+
+export/auto-export.after.coll.biblatex (188/233)
+biblatex-csl-converter x 1,042 ops/sec ±0.89% (93 runs sampled)
+bibtex-parser x 1,247 ops/sec ±1.82% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1961546406416295
+
+export/auto-export.before.biblatex (189/233)
+biblatex-csl-converter x 126 ops/sec ±1.64% (78 runs sampled)
+bibtex-parser x 943 ops/sec ±1.58% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 7.475041552081853
+
+export/auto-export.before.coll.biblatex (190/233)
+biblatex-csl-converter x 776 ops/sec ±1.28% (91 runs sampled)
+bibtex-parser x 1,009 ops/sec ±1.05% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3008342652261895
+
+export/biblatex export of Presentation; Use type and venue fields #644.biblatex (191/233)
+biblatex-csl-converter x 1,350 ops/sec ±2.14% (90 runs sampled)
+bibtex-parser x 1,541 ops/sec ±1.64% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.1413158350415311
+
+export/biblatex; Language tag xx is exported, xx-XX is not #380.biblatex (192/233)
+biblatex-csl-converter x 5,618 ops/sec ±1.06% (92 runs sampled)
+bibtex-parser x 6,824 ops/sec ±1.90% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2147332957277392
+
+export/bibtex export of phdthesis does not case-protect -type- #435.bibtex (193/233)
+biblatex-csl-converter x 5,212 ops/sec ±0.99% (91 runs sampled)
+bibtex-parser x 7,637 ops/sec ±2.17% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4652710460674765
+
+export/bibtex; url export does not survive underscores #402.biblatex (194/233)
+biblatex-csl-converter x 4,246 ops/sec ±1.04% (91 runs sampled)
+bibtex-parser x 5,096 ops/sec ±1.19% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2000654624515663
+
+export/bibtex; url export does not survive underscores #402.bibtex (195/233)
+biblatex-csl-converter x 406 ops/sec ±4.78% (78 runs sampled)
+bibtex-parser x 4,597 ops/sec ±1.62% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 11.309672041944669
+
+export/bookSection is always converted to @inbook, never @incollection #282.biblatex (196/233)
+biblatex-csl-converter x 4,153 ops/sec ±2.03% (91 runs sampled)
+bibtex-parser x 5,499 ops/sec ±1.10% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3240685197050808
+
+export/braces after textemdash followed by unicode #980.bibtex (197/233)
+biblatex-csl-converter x 477 ops/sec ±4.41% (79 runs sampled)
+bibtex-parser x 5,588 ops/sec ±1.96% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 11.711873896723437
+
+export/capital delta breaks .bib output #141.bibtex (198/233)
+biblatex-csl-converter x 344 ops/sec ±3.93% (78 runs sampled)
+bibtex-parser x 3,580 ops/sec ±1.11% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 10.417406787208858
+
+export/citekey firstpage-lastpage #1147.bibtex (199/233)
+biblatex-csl-converter x 165 ops/sec ±2.19% (75 runs sampled)
+bibtex-parser x 1,370 ops/sec ±1.33% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 8.29726968782911
+
+export/condense in cite key format not working #308.biblatex (200/233)
+biblatex-csl-converter x 3,560 ops/sec ±1.20% (92 runs sampled)
+bibtex-parser x 4,532 ops/sec ±2.00% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2729804856672806
+
+export/creating a key with [authForeIni] and [authN] not working properly #892.bibtex (201/233)
+biblatex-csl-converter x 356 ops/sec ±4.22% (76 runs sampled)
+bibtex-parser x 3,957 ops/sec ±2.07% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 11.12138785214131
+
+export/csquotes #302.biblatex (202/233)
+biblatex-csl-converter x 309 ops/sec ±3.63% (77 runs sampled)
+bibtex-parser x 2,956 ops/sec ±1.55% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 9.562773893096864
+
+export/custom fields should be exported as-is #441.bibtex (203/233)
+biblatex-csl-converter x 1,155 ops/sec ±1.71% (89 runs sampled)
+bibtex-parser x 1,860 ops/sec ±1.77% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 1.6105236499301558
+
+export/customized fields with curly brackets are not exported correctly anymore #775.biblatex (204/233)
+biblatex-csl-converter x 3,615 ops/sec ±1.33% (88 runs sampled)
+bibtex-parser x 5,594 ops/sec ±2.08% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.547518305871281
+
+export/date and year are switched #406.biblatex (205/233)
+biblatex-csl-converter x 1,265 ops/sec ±0.65% (92 runs sampled)
+bibtex-parser x 1,787 ops/sec ±1.61% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4131578403226388
+
+export/date not always parsed properly into month and year with PubMed #1112.bibtex (206/233)
+biblatex-csl-converter x 607 ops/sec ±1.31% (90 runs sampled)
+bibtex-parser x 811 ops/sec ±1.35% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3355655867692733
+
+export/date ranges #747+#746.biblatex (207/233)
+biblatex-csl-converter x 543 ops/sec ±1.86% (88 runs sampled)
+bibtex-parser x 693 ops/sec ±1.13% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.276324503669735
+
+export/date ranges #747+#746.bibtex (208/233)
+biblatex-csl-converter x 98.07 ops/sec ±1.46% (71 runs sampled)
+bibtex-parser x 708 ops/sec ±1.48% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 7.217147118875648
+
+export/don't escape entry key fields for #296.biblatex (209/233)
+biblatex-csl-converter x 3,707 ops/sec ±1.10% (91 runs sampled)
+bibtex-parser x 5,159 ops/sec ±1.21% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.391664571106657
+
+export/error on exporting note with pre tags; duplicate field howpublished #1092.bibtex (210/233)
+biblatex-csl-converter x 248 ops/sec ±3.49% (77 runs sampled)
+bibtex-parser x 2,225 ops/sec ±1.30% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 8.98207864953384
+
+export/export missing the a accent #691.biblatex (211/233)
+biblatex-csl-converter x 409,951 ops/sec ±2.31% (83 runs sampled)
+bibtex-parser x 161,334 ops/sec ±2.30% (84 runs sampled)
+Fastest is biblatex-csl-converter, speedup = 2.5410162241094825
+
+export/italics in title - capitalization #541.biblatex (212/233)
+biblatex-csl-converter x 359 ops/sec ±4.11% (78 runs sampled)
+bibtex-parser x 3,504 ops/sec ±2.58% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 9.762976162065344
+
+export/key migration.biblatex (213/233)
+biblatex-csl-converter x 1,793 ops/sec ±1.11% (91 runs sampled)
+bibtex-parser x 3,119 ops/sec ±1.38% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7390415877516725
+
+export/map csl-json variables #293.biblatex (214/233)
+biblatex-csl-converter x 1,586 ops/sec ±2.03% (89 runs sampled)
+bibtex-parser x 2,148 ops/sec ±5.58% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3543532368474214
+
+export/markup small-caps, superscript, italics #301.biblatex (215/233)
+biblatex-csl-converter x 224 ops/sec ±2.69% (80 runs sampled)
+bibtex-parser x 1,874 ops/sec ±1.59% (87 runs sampled)
+Fastest is bibtex-parser, speedup = 8.355583455085931
+
+export/pre not working in Extra field #559.biblatex (216/233)
+biblatex-csl-converter x 12,020 ops/sec ±1.19% (92 runs sampled)
+bibtex-parser x 16,401 ops/sec ±2.15% (85 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3644461917951902
+
+export/preserve @strings between import-export #1162.biblatex (217/233)
+biblatex-csl-converter x 4,184 ops/sec ±1.01% (92 runs sampled)
+bibtex-parser x 7,143 ops/sec ±1.68% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.7070590640003747
+
+export/preserve @strings between import-export #1162.bibtex (218/233)
+biblatex-csl-converter x 3,905 ops/sec ±2.81% (89 runs sampled)
+bibtex-parser x 6,693 ops/sec ±1.93% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.713779953017852
+
+export/preserve BibTeX Variables does not check for null values while escaping #337.bibtex (219/233)
+biblatex-csl-converter x 423 ops/sec ±4.82% (76 runs sampled)
+bibtex-parser x 6,054 ops/sec ±1.32% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 14.322832848344413
+
+export/referencetype= does not work #278.biblatex (220/233)
+biblatex-csl-converter x 5,972 ops/sec ±1.29% (93 runs sampled)
+bibtex-parser x 7,414 ops/sec ±1.74% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 1.24153125216394
+
+export/remove the field if the override is empty #303.biblatex (221/233)
+biblatex-csl-converter x 4,661 ops/sec ±1.30% (89 runs sampled)
+bibtex-parser x 6,386 ops/sec ±1.86% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3700722340481466
+
+export/suppressBraceProtection does not work for BibTeX export (non-English items) #1194.biblatex (222/233)
+biblatex-csl-converter x 3,799 ops/sec ±1.35% (91 runs sampled)
+bibtex-parser x 5,581 ops/sec ±1.61% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4691406375494276
+
+export/suppressBraceProtection does not work for BibTeX export (non-English items) #1194.bibtex (223/233)
+biblatex-csl-converter x 4,051 ops/sec ±2.20% (91 runs sampled)
+bibtex-parser x 5,976 ops/sec ±1.28% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4752446158579404
+
+export/suppressBraceProtection does not work for BibTeX export (non-English items) #1194.sbp.bibtex (224/233)
+biblatex-csl-converter x 4,193 ops/sec ±1.22% (90 runs sampled)
+bibtex-parser x 6,036 ops/sec ±2.02% (86 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4397848303411498
+
+export/thesis zotero entries always create @phdthesis bibtex entries #307.biblatex (225/233)
+biblatex-csl-converter x 4,223 ops/sec ±1.27% (92 runs sampled)
+bibtex-parser x 6,056 ops/sec ±1.26% (91 runs sampled)
+Fastest is bibtex-parser, speedup = 1.4340661554373086
+
+export/thesis zotero entries always create @phdthesis bibtex entries #307.bibtex (226/233)
+biblatex-csl-converter x 3,924 ops/sec ±1.99% (89 runs sampled)
+bibtex-parser x 5,936 ops/sec ±1.41% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 1.512485593301301
+
+export/titles are title-cased in .bib file #558.bibtex (227/233)
+biblatex-csl-converter x 886 ops/sec ±1.75% (90 runs sampled)
+bibtex-parser x 857 ops/sec ±2.57% (85 runs sampled)
+Fastest is biblatex-csl-converter, speedup = 1.034402517055542
+
+export/transliteration for citekey #580.biblatex (228/233)
+biblatex-csl-converter x 6,096 ops/sec ±1.29% (87 runs sampled)
+bibtex-parser x 7,522 ops/sec ±1.14% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2338985875206974
+
+export/two ISSN number are freezing browser #110 + Generating keys and export broken #111.biblatex (229/233)
+biblatex-csl-converter x 1,721 ops/sec ±0.99% (94 runs sampled)
+bibtex-parser x 1,787 ops/sec ±2.04% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.0381114928668045
+
+export/typo stature-statute (zotero item type) #284.biblatex (230/233)
+biblatex-csl-converter x 4,737 ops/sec ±1.29% (90 runs sampled)
+bibtex-parser x 5,694 ops/sec ±1.33% (90 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2020373291783475
+
+export/underscores in URL fields should not be escaped #104.biblatex (231/233)
+biblatex-csl-converter x 7,188 ops/sec ±1.83% (92 runs sampled)
+bibtex-parser x 9,939 ops/sec ±1.17% (88 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3826282011255417
+
+export/urldate when only DOI is exported #869.biblatex (232/233)
+biblatex-csl-converter x 6,697 ops/sec ±2.04% (90 runs sampled)
+bibtex-parser x 8,037 ops/sec ±1.32% (84 runs sampled)
+Fastest is bibtex-parser, speedup = 1.2001191657465724
+
+export/veryshorttitle and compound words #551.bibtex (233/233)
+biblatex-csl-converter x 592 ops/sec ±1.05% (88 runs sampled)
+bibtex-parser x 789 ops/sec ±1.72% (89 runs sampled)
+Fastest is bibtex-parser, speedup = 1.3319615316560842
+
+biblatex-csl-converter: faster 5 times, average speedup = 1.3415405642464453
+bibtex-parser: faster 228 times, average speedup = 5.462468474391567

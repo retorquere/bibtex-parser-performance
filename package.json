@@ -11,6 +11,6 @@
   "dependencies": {
     "@retorquere/bibtex-parser": "^1.0.67",
     "benchmark": "^2.1.4",
-    "biblatex-csl-converter": "^1.6.9"
+    "biblatex-csl-converter": "^1.9.1"
   }
 }
